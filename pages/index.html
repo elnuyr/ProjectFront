@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container navFix">
+        <h2 class="mainTag">TVmaze</h2>
+        <nav>
+          <div class="camavinga"></div>
+
+          <ul class="list">
+            <li><a href="">Series</a></li>
+            <li><a href="">Film</a></li>
+            <li><a href="">Sport</a></li>
+            <li><a href="">Documentary</a></li>
+            <li><a href="">Live TV</a></li>
+          </ul>
+        </nav>
+        <div class="right-side">
+          <input
+            id="search"
+            class="search"
+            type="text"
+            placeholder="Film search..."
+          />
+          <a class="login" href="">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="mainSection">
+      <div class="main">
+        <div id="filmType"></div>
+      </div>
+    </section>
+    <section class="searchSection"></section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="/assets/scripts/main.js"></script>
+  </body>
+</html>
